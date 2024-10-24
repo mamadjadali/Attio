@@ -6,7 +6,7 @@ import CustomStyledHeader from "../common/CustomStyledHeader";
 function MoreFeaturesSection() {
   const features = [
     {
-      iconUrl: "/images/f_1.png",
+      iconUrl: "/section/Network Structure.svg",
       title: "Network Structure",
       description: "The Network Structure service offered by REP is designed to provide a stable and efficient network that can handle the demands of modern business. We offers a range of solutions, including network design, implementation, and maintenance, to ensure that your network is always up and running. we offer ongoing maintenance and support for your network",
       detail: `Network design:
@@ -19,7 +19,7 @@ function MoreFeaturesSection() {
         REP offers ongoing maintenance and support for your network, including regular updates, patches, and security checks. They can also provide troubleshooting and problem resolution services to ensure that your network is always running smoothly.`,
     },
     {
-      iconUrl: "/images/f_2.png",
+      iconUrl: "/section/CCTV.svg",
       title: "CCTV",
       description:
         "The CCTV (Closed Circuit Television) solutions offered by us are designed to help businesses monitor their premises and protect against theft, vandalism, and other security threats. we offer a range of CCTV solutions that can be tailored to your specific needs, whether you require a small system for a single location or a large-scale solution for multiple sites.",
@@ -33,7 +33,7 @@ function MoreFeaturesSection() {
           REP can also provide CCTV monitoring services, allowing you to outsource the monitoring of your CCTV system to trained professionals. This can help ensure that any security threats are detected and dealt with quickly and efficiently, even outside of business hours.`,
     },
     {
-      iconUrl: "/images/f_3.png",
+      iconUrl: "/section/Data Center.svg",
       title: "Data Center",
       description: "The Data Center solutions offered by REP are designed to provide businesses with a scalable and secure infrastructure for hosting their critical data and applications. Rep's team of experts can help you design and implement a data center that meets your specific needs, whether you require a small server room or a large-scale data center.",
       detail: `Data center design:
@@ -46,9 +46,9 @@ function MoreFeaturesSection() {
         Rep can also help you with data center security, ensuring that your data is protected against unauthorized access and other security threats. We can help you with physical security measures such as access control, video surveillance, and intrusion detection systems, as well as network security measures such as firewalls, intrusion detection and prevention, and VPN solutions.`,
     },
     {
-      iconUrl: "/images/f_4.png",
+      iconUrl: "/section/Voip.svg",
       title: "VoIP",
-      description: "The VoIP Voice over Internet Protocol) solutions offered by REP are designed to provide businesses with a cost-effective and flexible phone system that can improve communication and collaboration. Rep's team of experts can help you design and implement a VoIP system that meets your specific needs, whether you require a small system for a single location or a large-scale solution for multiple sites.",
+      description: "The VoIP Voice over Internet Protocol) solutions offered by REP are designed to provide businesses with a cost-effective and flexible phone system that can improve communication and collaboration. Rep's team of experts can help you design and implement a VoIP system that meets your specific needs, whether you require a small system for a single location or a large-scale solution for multiple sites.Additionally, The different types of equipment and software are available.",
       detail: `VoIP design:
         Rep can help you design a VoIP system that is tailored to your specific needs. We will take into account factors such as the size of your business, the number of employees, the type of applications used, and the level of security required to create a customized VoIP solution
         VoIP implementation:
@@ -62,7 +62,7 @@ function MoreFeaturesSection() {
         Additionally, The different types of equipment and software are available, such as IP phones, soft phones, and PBX systems. Rep can help you select the right equipment and software for your VoIP.`,
     },
     {
-      iconUrl: "/images/f_5.png",
+      iconUrl: "/section/Virtualization.svg",
       title: "Virtualization",
       description: "The Virtualization solutions offered by Rep are designed to provide businesses with an efficient and flexible IT infrastructure that can reduce costs and improve productivity. Rep's team of experts can help you design and implement a virtualization solution that meets your specific needs, whether you require a small system for a single location or a large scale solution for multiple sites.",
       detail: `Virtualization design:
@@ -77,7 +77,7 @@ function MoreFeaturesSection() {
         virtualization solutions utilize a range of technologies, such as server virtualization, desktop virtualization, and application virtualization. We can help you choose the technologies that are most relevant to your business needs.`,
     },
     {
-      iconUrl: "/images/f_6.png",
+      iconUrl: "/section/RoutingandSwitching.svg",
       title: "Routing and Switching",
       description: "The Routing and Switching solutions offered by us are designed to provide businesses with a reliable and efficient network infrastructure that can help improve communication and collaboration. Rep's team of experts can help you design and implement a routing and switching solution that meets your specific needs, whether you require a small system for a single location or a large-scale solution for multiple sites.",
       detail: `Routing and Switching implementation:
