@@ -66,12 +66,6 @@ function LovedByBuildersSection() {
           titleUnColored="Builders"
           description="Attio is the customer relationship management tool for everyone who values collaboration."
         />
-
-        <MainButton
-          text="More customer stories"
-          size="small"
-          className="border border-[#31373D] text-[#EDEEF0] rounded-[12px] bg-transparent mt-[32px]"
-        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[64px]">
         {tweets.map((item, index) => (

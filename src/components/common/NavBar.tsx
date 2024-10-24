@@ -4,6 +4,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
 import Link from "next/link";
+import Image from "next/image";
 
 function NavBar() {
   const links = [
@@ -39,7 +40,7 @@ function NavBar() {
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-4 items-center">
           <Link href="/">
-            <img src="/images/logo.svg" alt="logo" />
+            <Image src="/images/logo.svg" width={100} height={40} alt="logo" />
           </Link>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((item, index) => (
@@ -60,13 +61,14 @@ function NavBar() {
             ))}
           </div>
           <div className="flex items-center gap-[20px] select-none">
-            <MainButton
+            {/* <MainButton
               text="Sign in"
               width="contain"
               className="bg-white border text-[#31373D] border-[#EDEEF0] hover:bg-white"
-            />
-
-            <MainButton text="Start for free" width="contain" />
+            /> */}
+            <Link href="/contact">
+            <MainButton text="Contact us" width="contain" />
+            </Link>
           </div>
         </div>
       </div>
@@ -87,9 +89,11 @@ function NavBar() {
                 onClick={toggleMenu}
               />
             ) : (
-              <img
+              <Image
                 src="/images/menu.svg"
-                alt="logo"
+                width={32}
+                height={32}
+                alt="menu toggle"
                 className="cursor-pointer animate-in fade-in zoom-in"
                 onClick={toggleMenu}
               />
@@ -117,13 +121,14 @@ function NavBar() {
               ))}
 
               <div className="flex flex-col gap-[20px] select-none">
-                <MainButton
+                {/* <MainButton
                   text="Sign in"
                   width="contain"
                   className="bg-white text-[#31373D] border-[#EDEEF0] hover:bg-white"
-                />
-
-                <MainButton text="Start for free" width="contain" />
+                /> */}
+                <Link href="/contact">
+                <MainButton text="Contact us" className="w-full" width="contain" />
+                </Link>
               </div>
             </div>
           </div>
