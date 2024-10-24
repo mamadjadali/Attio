@@ -9,26 +9,28 @@ import MarqueeSection from "@/components/sections/MarqueeSection";
 import MoreFeaturesSection from "@/components/sections/MoreFeaturesSection";
 import MultiPlayerDesignSection from "@/components/sections/MultiPlayerDesignSection";
 import ReadyToBuildSection from "@/components/sections/ReadyToBuildSection";
+import SecurityFeaturesSection from "@/components/sections/SecurityFeature";
 import SecurityScaleSection from "@/components/sections/SecurityScaleSection";
 
 export default function Home() {
   return (
     <main>
       <div className="flex flex-col-reverse md:flex-col">
-        <AlertSection />
+        {/* <AlertSection /> */}
         <NavBar />
       </div>
       <div className="mt-8 md:mt-[81px] flex flex-col gap-12 md:gap-[150px] px-4 md:px-[100px]">
         <HeroSection />
         <MarqueeSection />
         <CRMSection />
-        <DataModellingSection />
-        <MultiPlayerDesignSection />
+        {/* <DataModellingSection />
+        <MultiPlayerDesignSection /> */}
         <SecurityScaleSection />
       </div>
 
       <div className="mt-8 md:mt-[81px] flex flex-col">
         <MoreFeaturesSection />
+        <SecurityFeaturesSection/>
         <LovedByBuildersSection />
         <ReadyToBuildSection />
         <FooterSection />

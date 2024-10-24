@@ -14,19 +14,19 @@ function DataModellingSection() {
     <section>
       <div>
         <CustomHeader
-          title="Modeled around your data and workflows."
-          description="A CRM should go beyond deals. Attio is built for any business process."
+          title="Modeled around your data To Make it Secure."
+          description="Solutions that meet the specific requirements of our clients."
         />
       </div>
 
       <div className="w-full flex flex-col gap-[28px] items-center justify-center my-[64px] bg-white">
         <img
-          src="/images/m_1.png"
+          src="/images/m_1.svg"
           alt="crm image"
           className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
         />
         <img
-          src="/images/m_2.png"
+          src="/images/m_2.svg"
           alt="crm image"
           className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
         />

@@ -5,19 +5,19 @@ import Marquee from "react-fast-marquee";
 
 function MarqueeSection() {
   const logosGoingToLeft = [
-    "/images/coca_cola.png",
-    "/images/open_ai.png",
-    "/images/pallet.png",
-    "/images/causal.png",
-    "/images/plain.png",
-    "/images/passion_front.png",
+    "/images/gitlab.svg",
+    "/images/cisco.svg",
+    "/images/cloudflare.svg",
+    "/images/docker.svg",
+    "/images/k8s.svg",
+    "/images/fortinet.svg",
   ];
   const logosGoingToRight = [
-    "/images/dopt.png",
-    "/images/hyperlane.png",
-    "/images/on_deck.png",
-    "/images/bravado.png",
-    "/images/beacons.png",
+    "/images/MikroTik.svg",
+    "/images/zabbix.svg",
+    "/images/wireguard.svg",
+    "/images/terraform.svg",
+    "/images/pfsense.svg",
   ];
   return (
     <section>

@@ -16,17 +16,17 @@ function HeroSection() {
             "text-4xl md:text-[92px] text-center text-primary md:leading-[5.5rem] my-8"
           )}
         >
-          Customer <br /> relationship magic.
+          Productive <br /> one-stop growth.
         </div>
 
         <p className="mb-8 text-[22px] text-center text-[#31373D]">
-          Powerful, flexible and data-driven, Attio makes it easy to build the
-          exact CRM your business needs.
+          Powerful, flexible and data-driven, REP makes it easy to build and
+          scale your business needs.
         </p>
 
         <div className="flex gap-[12px] justify-center">
           <MainButton
-            text="Start for free"
+            text="Build & Scale"
             size="small"
             className="border-none rounded-[12px]"
           />

@@ -4,24 +4,24 @@ import ReviewCard from "../cards/ReviewCard";
 
 function CRMSection() {
   const cardData = {
-    avatarUrl: "/images/degrasse.png",
+    avatarUrl: "/images/kaveh.jpg",
     review:
-      "“My team loves Attio's reporting system because it's so dynamic. We can splice our data in so many different ways and combinations.”",
-    name: "DeGresse Schrader",
-    position: "Chief of Staff, Pallet",
+      "“In the digital realm, security isn't just a shield; it's the foundation upon which trust is built. Without it, every connection is a risk waiting to unfold.”",
+    name: "Kaveh Vahidi",
+    position: "Chief Executive Officer, REP",
   };
   return (
     <section>
       <div>
         <CustomHeader
-          title="A CRM created to be your own."
-          description="Tweak anything and everything to ensure Attio fits your business, not the other way around."
+          title="Coming Soon."
+          description="we are working on somthing that blow your mind."
         />
       </div>
 
       <div className="w-full flex justify-center my-[64px]">
         <img
-          src="/images/crm.png"
+          src="/images/coming.svg"
           alt="crm image"
           className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
         />

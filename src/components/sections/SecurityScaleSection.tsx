@@ -34,7 +34,7 @@ function SecurityScaleSection() {
         </div>
       </div>
       <div>
-        <img src="/images/security_scale.png" alt="security" />
+        <img src="/images/security_scale.svg" alt="security" />
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ export function HeroYoutubeModal() {
           className="hover:cursor-pointer"
         />
       </DialogTrigger>
-      <DialogContent className="p-2 min-w-full md:min-w-[calc(100vw-800px)]">
+      {/* <DialogContent className="p-2 min-w-full md:min-w-[calc(100vw-800px)]">
         <AnimatedBorderTrail trailSize="lg">
           <YoutubeIframe
             videoId="AVAR04vHdnY"
@@ -20,7 +20,7 @@ export function HeroYoutubeModal() {
             title="Welcome to Attio"
           />
         </AnimatedBorderTrail>
-      </DialogContent>
+      </DialogContent> */}
     </Dialog>
   );
 }

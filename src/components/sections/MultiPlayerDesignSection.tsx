@@ -14,19 +14,19 @@ function MultiPlayerDesignSection() {
     <section>
       <div>
         <CustomHeader
-          title="Designed for multiplayer."
-          description="The first trully multiplayer CRM. After all, the best work doesn’t come from silos."
+          title="Stay Connected."
+          description="Solutions that meet the specific requirements of our clients."
         />
       </div>
 
       <div className="w-full flex flex-col gap-[28px] items-center justify-center my-[64px] bg-white">
         <img
-          src="/images/d_1.png"
+          src="/images/d_1.svg"
           alt="design image"
           className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
         />
         <img
-          src="/images/d_2.png"
+          src="/images/d_2.svg"
           alt="design image"
           className="w-[calc(100vw-1.5rem)] md:w-[calc(100vw-8rem)]"
         />
