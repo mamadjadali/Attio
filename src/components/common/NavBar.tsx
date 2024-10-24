@@ -3,32 +3,28 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
+import Link from "next/link";
 
 function NavBar() {
   const links = [
     {
-      route: "/",
-      name: "Customer",
+      route: "/about",
+      name: "About",
+      badgeCount: 0,
+    },
+    {
+      route: "/#network",
+      name: "Network",
+      badgeCount: 0,
+    },
+    {
+      route: "/#security",
+      name: "Security",
       badgeCount: 0,
     },
     {
       route: "/",
-      name: "Changelog",
-      badgeCount: 0,
-    },
-    {
-      route: "/",
-      name: "Help",
-      badgeCount: 0,
-    },
-    {
-      route: "/",
-      name: "Careers",
-      badgeCount: 4,
-    },
-    {
-      route: "/",
-      name: "Pricing",
+      name: "Blog",
       badgeCount: 0,
     },
   ];
@@ -42,12 +38,12 @@ function NavBar() {
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-4 items-center">
-          <div>
+          <Link href="/">
             <img src="/images/logo.svg" alt="logo" />
-          </div>
+          </Link>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((item, index) => (
-              <div key={index} className="flex gap-2">
+              <Link key={index} href={item.route} className="flex gap-2">
                 <p
                   className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
                 >
@@ -60,7 +56,7 @@ function NavBar() {
                 ) : (
                   <div />
                 )}
-              </div>
+              </Link>
             ))}
           </div>
           <div className="flex items-center gap-[20px] select-none">

@@ -91,7 +91,7 @@ function MoreFeaturesSection() {
     },
   ];
   return (
-    <section className="bg-[#232529] px-4 md:px-[94px] py-[116px]">
+    <section id="network" className="bg-[#232529] px-4 md:px-[94px] py-[116px]">
       <div>
         <CustomStyledHeader
           titleColored="Networking"

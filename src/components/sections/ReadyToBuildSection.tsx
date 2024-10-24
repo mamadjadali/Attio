@@ -5,22 +5,22 @@ import MainButton from "../common/MainButton";
 
 function ReadyToBuildSection() {
   return (
-    <section className="flex flex-col md:flex-row justify-between gap-16 items-center !bg-[#266DF0]  px-4 md:px-[94px]">
+    <section className="flex flex-col md:flex-row justify-between gap-16 items-center !bg-[#95122c]  px-4 md:px-[94px]">
       <div>
         <p
           className={cn(
             gilroyBold.className,
-            "text-[40px] leading-tight md:leading-normal text-[#A0BFF8]"
+            "text-[40px] leading-tight md:leading-normal text-[#ffeace]"
           )}
         >
           Ready to build your team&apos;s{" "}
-          <span className="text-white">dream CRM?</span>
+          <span className="text-white">dream Network?</span>
         </p>
         <div className="flex gap-[12px] justify-start mt-[32px]">
           <MainButton
             text="Start for free"
             size="small"
-            className="border-none rounded-[12px] bg-[#538BF3]/40 hover:bg-[#538BF3]/40"
+            className="border-none rounded-[12px] bg-[#ffeace]/40 hover:bg-[#ffeace]/40"
           />
           <MainButton
             text="Talk to sales"
@@ -30,7 +30,7 @@ function ReadyToBuildSection() {
         </div>
       </div>
       <div>
-        <img src="/images/ready_to_build.png" alt="security" />
+        <img src="/images/ready_to_build.svg" alt="security" />
       </div>
     </section>
   );
